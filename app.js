@@ -83,6 +83,7 @@ app.get("/", function(req, res) {
     // console.log(foundItems)
 
     // console.log(foundItems);
+    
     res.render("list", {listTitle: day, newListItems: foundItems});
 
   })
